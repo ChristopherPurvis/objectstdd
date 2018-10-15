@@ -7,4 +7,5 @@ describe 'Area of a Circle' do
 
         expect(circle.area).to be_within(0.1).of(78.5)
     end
+    
 end
