@@ -12,5 +12,4 @@ describe 'Area of a Circle' do
         circle.colour = "Red"
         expect(circle.description).to eq "A circle with area " + "78.54" + "cm2" + " and colour " + "Red"
     end
-
 end

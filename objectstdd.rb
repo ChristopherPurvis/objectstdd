@@ -12,16 +12,5 @@ class Circle
         description
     end
 
-    #def colour
-        #@colour
-    #end
-
-
-    # enables you to input data (write it) to inside the object for use there 
-    # e.g. where we use circle.colour = "Green"
-    attr_writer :colour
-    
-    # makes data within the object public so it can be used outside the object 
-    # e.g. when you use puts to print the value outside of the object
-    attr_reader :colour
+    attr_accessor :colour
 end
